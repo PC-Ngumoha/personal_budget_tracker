@@ -13,7 +13,7 @@ To setup the project simple follow the following steps:
 - Copy the path to the `index.html` file at the root of the directory and paste said path in any browser of your choice (preferrably Chrome)
 
 - You should see an image that looks something like the following image:
-![Image depicting the Personal Budget Tracker](personal_budget_tracker.png)
+![Image depicting the Personal Budget Tracker](https://github.com/PC-Ngumoha/personal_budget_tracker/blob/main/personal_budget_tracker.png)
 
 **OR** you can just visit the live webpage using the link provided in the `Abouts` section of this repo (I hope it still works)
 
