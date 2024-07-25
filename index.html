@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Budget Tracker</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <main>
+    <article>
+      <header>
+        <div id="expenses">
+          <span class="title">
+            Expenses
+          </span>
+          <span class="value">
+            ₦ 0.00
+          </span>
+        </div>
+        <div id="remaining">
+          <span class="title">
+            Remaining
+          </span>
+          <span class="value">
+            ₦ 0.00
+          </span>
+        </div>
+        <div id="total">
+          <span class="title">
+            Total Income
+          </span>
+          <span class="value">
+            ₦ 0.00
+          </span>
+        </div>
+      </header>
+      <form>
+        <div>
+            <label for="total-income">Total Income</label>
+            <input id="total-income" type="number">
+        </div>
+        <div>
+            <label for="description">Description</label>
+            <input id="description" type="text">
+        </div>
+        <div>
+            <label for="amount">Amount</label>
+            <input id="amount" type="number">
+        </div>
+        <div>
+            <button id="add-button" class="active">Add Transaction</button>
+            <button id="clear-button" class="active">Clear Record</button>
+        </div>
+      </form>
+    </article>
+    <aside>
+      <table id="records">
+        <thead>
+          <tr>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Actions</th>
+          </tr>
+        </thead>
+      </table>
+    </aside>
+  </main>
+
+</body>
+</html>
