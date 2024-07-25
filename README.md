@@ -9,6 +9,7 @@ A simple frontend-based web application aimed at helping the average person calc
 To setup the project simple follow the following steps:
 - Clone this repo:
 ```
+git clone https://github.com/PC-Ngumoha/personal_budget_tracker.git
 ```
 - Copy the path to the `index.html` file at the root of the directory and paste said path in any browser of your choice (preferrably Chrome)
 
